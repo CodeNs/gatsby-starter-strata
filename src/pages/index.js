@@ -119,7 +119,10 @@ class HomeIndex extends React.Component {
                                 {/* data-netlify-honeypot="bot-field" */}
                                 {/* for captcha off */}
 
-                                <input type="hidden" name="form-name" value="contact" />
+                                <input type="hidden" name="name" value="contact" />
+                                <input type="hidden" name="email" value="contact" />
+                                <input type="hidden" name="message" value="contact" />
+
 
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
